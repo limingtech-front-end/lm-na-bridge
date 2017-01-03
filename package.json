@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/limingtech-front-end/lm-na-bridge/issues"
   },
-  "homepage": "https://github.com/limingtech-front-end/lm-na-bridge#readme"
+  "homepage": "https://github.com/limingtech-front-end/lm-na-bridge#readme",
+  "dependencies": {
+    "lm-ut-calc-platform-method": "git+https://github.com/limingtech-front-end/lm-ut-calc-platform-method.git"
+  }
 }
