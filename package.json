@@ -1,0 +1,19 @@
+{
+  "name": "lm-na-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limingtech-front-end/lm-na-bridge.git"
+  },
+  "author": "littlstonee <littlstonee@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limingtech-front-end/lm-na-bridge/issues"
+  },
+  "homepage": "https://github.com/limingtech-front-end/lm-na-bridge#readme"
+}
