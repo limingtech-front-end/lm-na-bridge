@@ -1,5 +1,5 @@
 
-let iosBridge=null 
+var iosBridge=null 
 function initIosWebView() {
     function setupWebViewJavascriptBridge(callback) {
         if (window.WebViewJavascriptBridge) {
@@ -34,7 +34,7 @@ function initIosWebView() {
     }
 }
 
-export default function(){
+module.exports=function(){
     if(iosBridge){
         console.log('ios bridge inited')
         return Promise.resolve(iosBridge)

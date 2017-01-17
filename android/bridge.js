@@ -1,4 +1,4 @@
-let androidBridge = null
+var androidBridge = null
 
 function initAndroidWebView() {
     function connectWebViewJavascriptBridge(callback) {
@@ -35,7 +35,7 @@ function initAndroidWebView() {
 }
 
 
-export default function() {
+module.exports=function() {
     if (androidBridge) {
         console.log('android bridge cached')
         return Promise.resolve(androidBridge)
