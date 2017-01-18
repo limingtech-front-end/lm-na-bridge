@@ -1,7 +1,9 @@
+
 var androidBridge = null
 
 function initAndroidWebView() {
     function connectWebViewJavascriptBridge(callback) {
+        // alert('start init android bridge')
         if (window.WebViewJavascriptBridge) {
             callback(WebViewJavascriptBridge)
         } else {
@@ -15,15 +17,19 @@ function initAndroidWebView() {
         }
     }
     try{
-        return new Promise((resolve, reject) => {
+
+        return new Promise(function(resolve, reject){
             window.onerror = function(err) {
                 reject && reject(err)
+
             }
             // alert('start initing android bridge')
             connectWebViewJavascriptBridge(function(bridge) {
-                androidBridge = bridge
-                console.log('android bridge inited')
                 // alert('android bridge inited')
+                
+                androidBridge = bridge
+
+                console.log('android bridge inited')
                 resolve && resolve(androidBridge)
             })
         }) 

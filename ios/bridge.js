@@ -17,7 +17,7 @@ function initIosWebView() {
         setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
     }
     try{
-        return new Promise((resolve, reject) => {
+        return new Promise(function(resolve, reject){
             window.onerror = function(err) {
                 reject && reject(err)
             }

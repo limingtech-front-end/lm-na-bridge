@@ -20,6 +20,27 @@
         }
       },
       "D:\\Projects\\vsa"
+    ],
+    [
+      {
+        "raw": "https://github.com/limingtech-front-end/lm-na-bridge",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/limingtech-front-end/lm-na-bridge",
+        "spec": "git+https://github.com/limingtech-front-end/lm-na-bridge.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:limingtech-front-end/lm-na-bridge.git",
+          "sshUrl": "git+ssh://git@github.com/limingtech-front-end/lm-na-bridge.git",
+          "httpsUrl": "git+https://github.com/limingtech-front-end/lm-na-bridge.git",
+          "gitUrl": "git://github.com/limingtech-front-end/lm-na-bridge.git",
+          "shortcut": "github:limingtech-front-end/lm-na-bridge",
+          "directUrl": "https://raw.githubusercontent.com/limingtech-front-end/lm-na-bridge/master/package.json"
+        }
+      },
+      "D:\\Tests\\nativehybrid\\mail-icar"
     ]
   ],
   "_from": "git+https://github.com/limingtech-front-end/lm-na-bridge.git",
@@ -47,13 +68,15 @@
   },
   "_requiredBy": [
     "#USER",
-    "/"
+    "/",
+    "/lm-na-se-router",
+    "/lm-na-sr-login-status"
   ],
-  "_resolved": "git+https://github.com/limingtech-front-end/lm-na-bridge.git#5616c9b6a1c447a4e9b258aab769553f6d99899b",
-  "_shasum": "fc3b8c7e65064bdfed8925221f5cb4822d566d2e",
+  "_resolved": "git+https://github.com/limingtech-front-end/lm-na-bridge.git#034fc10c109285215259ae491f1929b9f358b972",
+  "_shasum": "4e444d5970c0656a847399e1de4a260240c7586e",
   "_shrinkwrap": null,
   "_spec": "https://github.com/limingtech-front-end/lm-na-bridge",
-  "_where": "D:\\Projects\\vsa",
+  "_where": "D:\\Tests\\nativehybrid\\mail-icar",
   "author": {
     "name": "littlstonee",
     "email": "littlstonee@hotmail.com"
