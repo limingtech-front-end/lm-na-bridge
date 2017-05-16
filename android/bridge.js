@@ -13,7 +13,7 @@ function initAndroidWebView() {
                     callback(WebViewJavascriptBridge)
                 },
                 false
-            )
+            ) 
         }
     }
     try{
@@ -42,6 +42,7 @@ function initAndroidWebView() {
 
 
 module.exports=function() {
+    console.log('start init android bridge')
     if (androidBridge) {
         console.log('android bridge cached')
         return Promise.resolve(androidBridge)

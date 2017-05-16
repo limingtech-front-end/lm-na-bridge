@@ -15,7 +15,7 @@ function initIosWebView() {
         WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
         document.documentElement.appendChild(WVJBIframe);
         setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
-    }
+    } 
     try{
         return new Promise(function(resolve, reject){
             window.onerror = function(err) {
@@ -35,6 +35,7 @@ function initIosWebView() {
 }
 
 module.exports=function(){
+    console.log('start init ios bridge')
     if(iosBridge){
         console.log('ios bridge inited')
         return Promise.resolve(iosBridge)
